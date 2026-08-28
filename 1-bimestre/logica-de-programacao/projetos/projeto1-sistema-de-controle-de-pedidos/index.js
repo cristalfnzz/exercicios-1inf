@@ -20,7 +20,32 @@ const valorFinal = subtotal - valorDesconto
 const troco = valorPago - valorFinal
 
 // 5. Resumo do pedido
-const resumo =
+const resumo =`
+==================================================
+TECHSTORE SISTEMAS
+RESUMO DO PEDIDO
+==================================================
+
+Cliente: ${cliente}
+Cidade: ${cidade}
+
+Produto: ${produto}
+Categoria: ${categoria}
+Quantidade: ${quantidade}
+Preço unitário: R$ ${preco}
+
+Subtotal: R$ ${subtotal}
+Desconto: ${descontoPercentual}%
+Valor do desconto: R$ ${valorDesconto}
+Valor final: R$ ${valorFinal}
+
+Valor pago: R$ ${valorPago}
+Troco: R$ ${troco}
+
+Obrigado pela compra!
+==================================================
+`
+
 console.log(`
 ==================================================
 TECHSTORE SISTEMAS
