@@ -20,7 +20,6 @@ const valorFinal = subtotal - valorDesconto
 const troco = valorPago - valorFinal
 
 // 5. Resumo do pedido
-
 const resumo =`
 ==================================================
 TECHSTORE SISTEMAS
