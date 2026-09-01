@@ -46,31 +46,7 @@ Obrigado pela compra!
 ==================================================
 `
 
-console.log(`
-==================================================
-TECHSTORE SISTEMAS
-RESUMO DO PEDIDO
-==================================================
-
-Cliente: ${cliente}
-Cidade: ${cidade}
-
-Produto: ${produto}
-Categoria: ${categoria}
-Quantidade: ${quantidade}
-Preço unitário: R$ ${preco}
-
-Subtotal: R$ ${subtotal}
-Desconto: ${descontoPercentual}%
-Valor do desconto: R$ ${valorDesconto}
-Valor final: R$ ${valorFinal}
-
-Valor pago: R$ ${valorPago}
-Troco: R$ ${troco}
-
-Obrigado pela compra!
-==================================================
-`)
+console.log(resumo)
 
 
 // === FIM DO CÓDIGO =======================
