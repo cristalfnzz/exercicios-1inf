@@ -48,6 +48,7 @@ module.exports = {
     situacaoSemana,
     resumo
 }
+
 module.exports = {
     quantidadeDeDias,
     metaDiaria,
